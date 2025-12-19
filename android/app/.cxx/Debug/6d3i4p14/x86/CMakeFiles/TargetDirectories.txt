@@ -1,0 +1,2 @@
+C:/Users/zakar/Downloads/puzzle-hack-main/puzzle-hack-main/android/app/.cxx/Debug/6d3i4p14/x86/CMakeFiles/edit_cache.dir
+C:/Users/zakar/Downloads/puzzle-hack-main/puzzle-hack-main/android/app/.cxx/Debug/6d3i4p14/x86/CMakeFiles/rebuild_cache.dir
