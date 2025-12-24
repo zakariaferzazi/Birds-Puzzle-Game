@@ -87,9 +87,12 @@ class TimeAndMoves extends StatelessWidget {
                             child: icon!,
                           ),
                           const SizedBox(width: 10),
-                          Text(
-                            parseTime(time),
-                            style: textStyle,
+                          Flexible(
+                            child: Text(
+                              parseTime(time),
+                              style: textStyle,
+                              overflow: TextOverflow.ellipsis,
+                            ),
                           ),
                         ],
                       ),
