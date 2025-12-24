@@ -77,17 +77,6 @@ class GameAppBar extends StatelessWidget {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                MyIconButton(
-                  onPressed: () {
-                    showWinnerDialog(
-                      context,
-                      moves: 42,
-                      time: 125,
-                    );
-                  },
-                  iconData: Icons.emoji_events_rounded,
-                ),
-                const SizedBox(width: 8),
                 Consumer<ThemeController>(
                   builder: (_, controller, __) => MyIconButton(
                     onPressed: controller.toggle,
